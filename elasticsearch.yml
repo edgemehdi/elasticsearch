@@ -1,0 +1,13 @@
+cluster.name: ESdevop
+node.name: devopServer2
+
+# path
+path.conf: /elasticsearch/config
+path.data: /data/mnt/data
+path.logs: /data/mnt/log
+path.plugins: /elasticsearch/plugins
+path.work: /data/mnt/work
+
+# index option
+index.number_of_shards: 1
+index.number_of_replicas: 0
